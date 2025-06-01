@@ -54,7 +54,10 @@ Detailed Breakdown
 13. User Interface (Tkinter GUI): The script also integrates a Tkinter window (referred to as ConfigWindow in the code), although the class for it 
     (ConfigWindow) isn't fully defined in the provided code. This window would presumably allow the user to configure settings (like AWS S3 bucket name or 
      screenshot intervals).
-15.	Error Handling: o The script includes error handling for various AWS S3 upload issues, such as missing credentials, network issues, or permission errors. It also handles network errors when uploading logs or screenshots, queuing the uploads if the device is offline.
+14. Error Handling: The script includes error handling for various AWS S3 upload issues, such as missing credentials, network issues, or permission errors. It 
+    also handles network errors when uploading logs or screenshots, queuing the uploads if the device is offline.
+
+    
 Key Functionalities Summary:
 1.	Monitoring User Activity: The script tracks mouse and keyboard events, detecting unusual patterns (e.g., rapid movements or scripted behaviors).
 2.	System Tray Icon: Allows user to interact with the application through a system tray icon.
@@ -65,6 +68,6 @@ Key Functionalities Summary:
 7.	Memory and Performance: The agent is lightweight, with minimal impact on system resources also I used python inbuilt libraries as I can. In the agent memory optimization techniques is implemented to manage the application’s footprint, especially when handling large files or running for extended periods. Also when the activities are uploaded to the cloud then they are automatically deleted from the system.
 8.	File Size Management: The code will compress screenshots before uploading to reduce file size. This process will Implement automatically.
 9.	Modular and Object-Oriented Design: The application Structure is using a modular and object-oriented approach. The code is well-organized, with clear separation of concerns. Also the code is commented extensively to explain the purpose of each module and function.
-10.	Battery Management: Pauses tracking if the battery level is too low like >20 and resumes it when sufficient say <40.
-11.	Time Zone Management: The log file is storing the data with the proper time stamp.
+10. Battery Management: Pauses tracking if the battery level is too low like >20 and resumes it when sufficient say <40.
+11. Time Zone Management: The log file is storing the data with the proper time stamp.
 
