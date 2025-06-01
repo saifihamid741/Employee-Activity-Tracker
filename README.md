@@ -3,7 +3,7 @@ Activity Tracker Here is an detail description about Activity Tracker that monit
 
 Detailed Breakdown
 
-1. Imports and Setup: o Various modules are imported to handle tasks such as logging, GUI, system tray icon creation, mouse/keyboard tracking, AWS S3 
+1. Imports and Setup: Various modules are imported to handle tasks such as logging, GUI, system tray icon creation, mouse/keyboard tracking, AWS S3 
    interaction, and battery monitoring:
       logging: For logging activities to a file.
       pyautogui: For taking screenshots.
